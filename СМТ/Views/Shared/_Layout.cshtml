@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]CMT</title>
+    @await Html.PartialAsync("CssPartial")
+</head>
+<body>
+    <div class="header">
+       <div class="nav">
+           <a asp-controller="Home">СМТ</a>
+           <a asp-controller="Home">Главная</a>
+           <a>Статистика игрока</a>
+       </div>
+    </div>
+    <div class="Main">
+        @RenderBody()
+    </div>
+
+    <footer>
+        @await Html.PartialAsync("ScriptsPartial")
+    </footer>
+</body>
+</html>

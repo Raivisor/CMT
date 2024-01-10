@@ -1,0 +1,15 @@
+﻿html{
+    box-sizing: border-box;
+}
+
+.nav {
+    font-size:25px;
+}
+
+.Main {
+    margin: 0px auto;
+    text-align: center;
+    font-size: 20px;
+    width: 800px;
+}
+
